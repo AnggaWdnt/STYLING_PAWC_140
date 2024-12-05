@@ -1,0 +1,73 @@
+/* Halaman Signup */
+#signupPage {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Ukuran Gambar pada Signup */
+#signupPage img {
+    max-width: 100px;  /* Menyesuaikan ukuran gambar agar lebih kecil dan proporsional */
+    margin-bottom: 20px;
+}
+
+/* Styling untuk gambar logo */
+.logo-img {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+/* Form Input */
+#signupPage .form-group {
+    margin-bottom: 20px;
+}
+
+#signupPage .form-control {
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Tombol Submit */
+#signupPage .btn-primary {
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #007bff;
+    border: none;
+}
+
+#signupPage .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Menyesuaikan ukuran card */
+#signupPage .card {
+    max-width: 500px; /* Menyesuaikan lebar card */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsif untuk perangkat kecil */
+@media (max-width: 576px) {
+    #signupPage .card {
+        width: 100%;
+        margin-top: 0px;
+    }
+}
+
+/* Animasi tombol saat hover */
+.btn-primary:hover {
+    background-color: #0056b3; /* Ganti dengan warna yang lebih gelap saat hover */
+    transition: background-color 0.3s ease;
+}
+
+/* Menambahkan shadow pada card */
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
